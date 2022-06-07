@@ -1,0 +1,9 @@
+.homeworks {
+  margin-top: 215px;
+  margin-bottom: 215px;
+}
+
+.homeworks__list {
+  display: flex;
+  justify-content: space-around;
+}

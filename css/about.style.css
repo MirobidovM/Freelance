@@ -1,0 +1,230 @@
+/* intro start  */
+.about-intro {
+    padding-top: 164px;
+    padding-bottom: 235px;
+    background-image: url(../images/about-intro-png.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: right calc(50% - 720px) bottom;
+}
+
+.about-intro__content {
+    display: flex;
+}
+
+.about-intro__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    color: var(--main-white);
+    margin-right: 185px;
+}
+
+.about-intro__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    width: 730px;
+    color: var(--main-white);
+    position: relative;
+}
+
+.about-intro__text::before {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: var(--main-coral);
+    position: absolute;
+    top: -40px;
+}
+/* intro end  */
+
+
+/* meet start  */
+.meet {
+    background-color: var(--second-deep-blue);
+    padding-top: 140px;
+    padding-bottom: 92px;
+}
+
+.meet {
+    background-image: url(../images/meet-bg-img1.png),url(../images/meet-bg-img2.png);
+    background-repeat: no-repeat;
+    background-position: left calc(50% - 720px) top, right calc(50% - 695px) bottom;
+}
+
+.meet__title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--main-white);
+    margin-bottom: 64px;
+}
+
+.meet__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.meet__item {
+    background-color: var(--second-state-green);
+    width: 350px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 56px;
+    margin-bottom: 76px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.meet__item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.meet__item::after {
+    content: '';
+    background-image: url(../images/meet-build-img.svg);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    color: var(--second-state-green);
+    position: absolute;
+    top: 230px;
+    background-color: var(--main-coral);
+    padding: 20px;
+    border-radius: 50%;
+    background-position: center;
+    left: 155px;
+}
+
+.meet__item-last:after {
+    content: '';
+    background-image: url(../images/meet-x-img.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    color: var(--second-state-green);
+    position: absolute;
+    top: 230px;
+    background-color: var(--second-light-blue);
+    padding: 20px;
+    border-radius: 50%;
+    background-position: center;
+    left: 155px;
+}
+
+.meet__user-img {
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meet__username {
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--second-light-blue);
+}
+
+.meet__userjob {
+    line-height: 25px;
+    text-align: center;
+    color: var(--main-white);
+    font-size: 15px;
+}
+
+.mi__last-username {
+    margin-bottom: 8px;
+}
+
+.meet__user-status {
+    line-height: 25px;
+    color: var(--main-white);
+    font-size: 15px;
+    margin-bottom: 24px;
+    width: 254px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meet__icon {
+    color: var(--main-white);
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: 0.2s ease;
+}
+
+.meet__icon:hover {
+    color: var(--main-coral);
+}
+/* meet end  */
+
+
+/* clients  */
+.clients {
+    background-color: var(--second-state-green);
+    padding-top: 140px;
+    padding-bottom: 151px;
+    background-image: url(../images/clients-bg.svg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% - 670px) top;
+}
+
+.clients__title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--main-white);
+    margin-bottom: 70px;
+}
+
+.clients__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.clients__link {
+    transition: 0.2s ease;
+    color: var(--main-white);
+}
+
+.clients__link:hover {
+    opacity: 0.7;
+}
+
+/* media  */
+@media only screen and (max-width: 768px) {
+
+.about-intro {
+    padding-top: 122px;
+    padding-bottom: 347px;
+    background-position: right calc(50% - 335px) bottom;
+}
+.about-intro__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-intro__title {
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.about-intro__text {
+    line-height: 28px;
+    width: 457px;
+    font-size: 15px;
+}
+
+.about-intro__text::before {
+    display: none;
+}
+
+}

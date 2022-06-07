@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    padding: 30px;
+    margin: auto;
+}
+.nav{
+    width: 687px;
+    margin: auto;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+#foto_dom{
+    width: 1100px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+}
+
+
+
+main{
+    padding-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    width: 1110px;
+    margin: auto;
+}
+
+.left{
+    background-color: #f0f0f0;
+    height: 498px;
+    width: 730px;
+    
+    
+}
+.left h2{
+    padding-top: 45px;
+    padding-left: 41px;
+    color: #4581b7;
+    font-size: 20px;
+   
+}
+.left p{
+    padding-top: 30px;
+    display: flex;
+    width: 70%;
+    text-align: left;
+    padding-left: 41px;
+    padding-bottom: 70px;
+    color: #a5a5a5;
+}
+
+.right{
+    background-color: #f0f0f0;
+    width: 350px;
+    
+    
+}
+.right h2{
+    padding-top: 45px;
+    padding-left: 41px;
+    color: #4581b7;
+    font-size: 20px;
+
+}
+.right p{
+    padding-top: 29px;
+    padding-left: 43px;
+    color: #a5a5a5;
+}
+#tel{
+    padding-top: 50px;
+    padding-left: 43px;
+    color: #a5a5a5;
+}
+#pochta{
+    padding-top: 50px;
+    padding-left: 43px;
+    color: #a5a5a5;
+}
+footer{
+    padding-top: 50px;
+    width: 1110px;
+    margin: auto;
+    height: 150px;
+}
+.fotteer{
+    background-color: #f0f0f0;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#d2{
+ padding-left: 570px;
+ line-height: 25px;
+ color: #a5a5a5;
+    
+}
+.fotteer span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fotteer a{
+   text-decoration: none;
+   color:  #a5a5a5;
+}
+
+
+
+
+
+
+

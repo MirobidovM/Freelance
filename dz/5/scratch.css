@@ -1,0 +1,35 @@
+#img{
+width: 400px;
+height: 250px;}
+
+#img1{
+width: 250px;
+height: 150px;
+}
+.nav-link{
+font-size: 30px;
+background-color: #DCA4EC;
+}
+#home{
+color:#1C7BB7;
+font-size: 30px;
+font-family:impact;
+}
+
+#link{
+color:#1C7BB7;
+font-size: 30px;
+font-family:impact;
+}
+
+#disabled{
+color:#1C7BB7;
+font-size: 30px;
+font-family:impact;
+}
+
+#navbarDropdown{
+color:#1C7BB7;
+font-size: 30px;
+font-family:impact;
+}
